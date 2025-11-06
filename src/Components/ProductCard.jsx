@@ -16,7 +16,7 @@ const ProductCard = ({ ele }) => {
     };
     
     return (
-        <div className='bg-pink-200 p-4 shadow-lg rounded-lg flex flex-col'>
+        <div className='bg-white opacity-70 p-4 shadow-lg rounded-lg flex flex-col'>
            <img src={ele.image} alt={ele.title} className="w-full h-48 object-contain mb-4" /> 
              <h3 className="text-lg font-semibold mb-2 font-sans text-pink-800 text-center">{ele.title}</h3>
                 <p className="text-black font-mono font-bold text-center">${ele.price}</p>
