@@ -39,7 +39,7 @@ function CartPage() {
         
         <hr className="my-3 border-t-2 border-pink-300" />
         
-        <div className="flex justify-between py-2 text-xl font-extrabold text-green-700">
+        <div className="flex justify-between py-2 text-xl font-extrabold text-pink-700">
           <span>Final Total:</span>
           <span>${finalTotal.toFixed(2)}</span>
         </div>
