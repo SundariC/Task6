@@ -10,7 +10,7 @@ const ProductPage = ({ products, addToCart }) => {
         <img
           src="https://t4.ftcdn.net/jpg/05/96/62/65/360_F_596626503_jrzjZNYStDexiWxQFqO7oCh6M8PdMlJs.jpg"
           alt="Placeholder"
-          className="w-full blur-xs fixed top-0 left-0"
+          className="w-full blur-xl fixed top-0 left-0"
         />
         <div className="mt-20 text-center flex flex-col gap-10 opacity-80 p-4 md:p-8 lg:items-center">
           <h1 className="lg:text-6xl md:text-2xl font-bold text-white text-center">

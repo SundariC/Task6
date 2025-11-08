@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div className="nav-actions">
                     <Link
                         to="/cart" 
-                        className="bg-rose-700 text-white shadow-lg px-4 py-2 rounded cart-btn flex items-center hover:outline-none hover:bg-rose-800 hover:text-black focus:outline-none"
+                        className="bg-pink-700 text-white shadow-lg px-4 py-2 rounded cart-btn flex items-center hover:outline-none hover:bg-pink-800 hover:text-black focus:outline-none"
                     >
                         <TiShoppingCart className="text-2xl" />
                         <span className="cart-count ml-2">{totalItems}</span>
